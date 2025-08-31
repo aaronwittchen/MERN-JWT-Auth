@@ -1,5 +1,18 @@
 # MERN JWT Authentication Backend
 
+![Node.js](https://img.shields.io/badge/Node-18%2B-lightgreen)
+![Express](https://img.shields.io/badge/Express-4.18.2-blue)
+![MongoDB](https://img.shields.io/badge/MongoDB-6.0-green)
+![Mongoose](https://img.shields.io/badge/Mongoose-7.7.0-orange)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.3.0-blue)
+![JWT](https://img.shields.io/badge/JWT-authentication-yellow)
+![Zod](https://img.shields.io/badge/Zod-validation-lightgrey)
+![Helmet](https://img.shields.io/badge/Helmet-security-blueviolet)
+![ESLint](https://img.shields.io/badge/ESLint-configured-blue)
+![Jest](https://img.shields.io/badge/Jest-testing-red)
+![License](https://img.shields.io/badge/License-MIT-blue)
+![Build](https://img.shields.io/badge/build-passing-brightgreen)
+
 A robust, production-ready backend for MERN stack applications with JWT authentication, built with TypeScript, Express, and MongoDB.
 
 ## Features
@@ -37,18 +50,21 @@ src/
 ## Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone <your-repo-url>
    cd mern-jwt-auth/backend
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 3. **Set up environment variables**
    Create a `.env` file in the root directory:
+
    ```env
    NODE_ENV=development
    PORT=4004
@@ -78,6 +94,7 @@ src/
 ## API Endpoints
 
 ### Authentication Routes (`/auth`)
+
 - `POST /auth/register` - User registration
 - `POST /auth/login` - User login
 - `POST /auth/logout` - User logout
@@ -87,14 +104,18 @@ src/
 - `POST /auth/reset-password` - Reset password
 
 ### Protected Routes
+
 - `GET /user/*` - User-related endpoints (requires authentication)
 - `GET /sessions/*` - Session management (requires authentication)
 
 ### Health Check
+
 - `GET /health` - Server health status
 
 ### Database Configuration
+
 The application includes optimized MongoDB connection settings:
+
 - Connection pooling with max 10 connections
 - 5-second server selection timeout
 - 45-second socket timeout
@@ -115,6 +136,7 @@ All API responses follow a consistent format:
 ```
 
 ### Error Types
+
 - Validation Errors: Zod schema validation failures
 - Authentication Errors: JWT token issues
 - Database Errors: MongoDB operation failures
@@ -132,6 +154,7 @@ All API responses follow a consistent format:
 ## Testing
 
 The project includes Jest testing setup with:
+
 - Test coverage reporting
 - MongoDB memory server for testing
 - Supertest for API endpoint testing
@@ -140,11 +163,13 @@ The project includes Jest testing setup with:
 ## Deployment
 
 1. **Build the application**
+
    ```bash
    npm run build
    ```
 
 2. **Start the production server**
+
    ```bash
    npm start
    ```
