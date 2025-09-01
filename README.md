@@ -83,7 +83,7 @@ mern-jwt-auth/
 ### 1. Clone Repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/aaronwittchen/MERN-JWT-Auth.git
 cd mern-jwt-auth
 ```
 
