@@ -15,6 +15,11 @@
 
 A complete, production-ready MERN stack application with JWT authentication, featuring a TypeScript backend and React frontend.
 
+![1](frontend/public/1.png)
+![2](frontend/public/2.png)
+![3](frontend/public/3.png)
+![4](frontend/public/4.png)
+
 ## Features
 
 ### Backend (Node.js + Express + TypeScript)
