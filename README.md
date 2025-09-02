@@ -73,6 +73,8 @@ mern-jwt-auth/
 └── README.md
 ```
 
+![Auth Diagram](frontend/public/Auth%20Diagram.png)
+
 ## Quick Start
 
 ### Prerequisites
